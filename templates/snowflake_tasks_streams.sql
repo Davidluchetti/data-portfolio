@@ -1,11 +1,17 @@
 -- ============================================================================
 -- Snowflake Advanced Features: Tasks, Streams, Zero-Copy Cloning
+-- Recursos Avançados Snowflake: Tasks, Streams, Zero-Copy Clone
 -- ============================================================================
 --
--- Production patterns for:
--- 1. Automated pipelines via Tasks (serverless orchestration)
--- 2. Real-time CDC via Streams (change tracking)
--- 3. Environment cloning via Zero-Copy Clone (instant dev/test copies)
+-- EN: Production patterns for:
+--     1. Automated pipelines via Tasks (serverless orchestration)
+--     2. Real-time CDC via Streams (change tracking)
+--     3. Environment cloning via Zero-Copy Clone (instant dev/test copies)
+--
+-- PT: Padrões de produção para:
+--     1. Pipelines automatizados via Tasks (orquestração serverless)
+--     2. CDC em tempo real via Streams (rastreamento de mudanças)
+--     3. Clone de ambientes via Zero-Copy Clone (dev/test instantâneo)
 --
 -- Author: David Luchetti
 -- Updated: February 2026

@@ -1,13 +1,20 @@
 """
-Production Airflow DAG Template
-================================
+Production Airflow DAG Template / Template de DAG Airflow para Produção
+=======================================================================
 
-Template for building scalable ETL pipelines with:
-- Error alerting via Slack
-- Data quality checks
-- Sensor-based dependencies
-- Retry logic
-- Parallel task execution
+EN: Template for building scalable ETL pipelines with:
+    - Error alerting via Slack
+    - Data quality checks (row count, hash validation)
+    - Sensor-based dependencies
+    - Retry logic with exponential backoff
+    - Parallel task execution
+
+PT: Template para pipelines ETL escaláveis com:
+    - Alertas de erro via Slack
+    - Checagens de qualidade de dados (contagem de linhas, hash)
+    - Dependências via Sensor (aguarda arquivo/API)
+    - Retry com backoff exponencial
+    - Execução paralela de tasks
 
 Author: David Luchetti
 Updated: February 2026

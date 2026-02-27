@@ -1,22 +1,26 @@
 """
-Data Quality Testing Framework
-================================
+Data Quality Testing Framework / Framework de Testes de Qualidade de Dados
+===========================================================================
 
-Production-grade data quality tests using Pytest + SQL assertions.
+EN: Production-grade data quality tests using Pytest + SQL assertions.
+    Validates schema, referential integrity, business logic, and performance.
 
-Validates:
-- Schema correctness (column types, nullability)
-- Referential integrity (foreign keys)
-- Business logic (range checks, deduplication)
-- Performance (query execution time)
+PT: Testes de qualidade de dados para produção usando Pytest + SQL.
+    Valida schema, integridade referencial, regras de negócio e performance.
+
+Validates / Valida:
+- Schema correctness / Tipos e nullability corretos
+- Referential integrity / Integridade de chaves estrangeiras
+- Business logic / Regras de negócio (ranges, deduplicação)
+- Performance / Tempo de execução dentro do SLA
 
 Author: David Luchetti
 Updated: February 2026
 
-Usage:
+Usage / Uso:
     pytest templates/pytest_data_quality.py -v
-    pytest templates/pytest_data_quality.py::test_orders_no_duplicates -v
-    pytest templates/pytest_data_quality.py -m "not slow"  # Skip slow tests
+    pytest templates/pytest_data_quality.py::TestSilverOrdersSchema -v
+    pytest templates/pytest_data_quality.py -m "not slow"  # Skip slow / Pula lentos
 """
 
 import pytest
