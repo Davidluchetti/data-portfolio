@@ -59,7 +59,8 @@ See [`architecture/cdc-scd-patterns.md`](./architecture/cdc-scd-patterns.md)
 Real migrations:
 - IBM DataStage → Snowflake (Algar Telecom)
 - Informatica PowerCenter → Azure Data Factory (Danone Group)
-- SAP extraction → GCP BigQuery (BRF Analytics)
+- PowerCenter → Informatica IICS (BRFConsulting / RedPill Analytics)
+- Legacy pipelines → GCP BigQuery (Tenbu)
 
 See [`architecture/etl-migration-guide.md`](./architecture/etl-migration-guide.md)
 
@@ -106,5 +107,5 @@ Patterns extracted from experience across:
 
 ## Links
 
-- [LinkedIn](https://linkedin.com/in/david-luchetti-b04ab3182)
+- [Portfolio](https://davidluchetti.github.io) | [LinkedIn](https://linkedin.com/in/david-luchetti-b04ab3182)
 - [Resume EN](https://drive.google.com/file/d/10E7iH3LXhXyFP2Mm43qmwXP6JlnGBx6z/view) | [Currículo PT](https://drive.google.com/file/d/1LYSJQUTE6V0e8ZoWUK1zlIsuafk2Xwlq/view)
